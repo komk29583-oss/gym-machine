@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* ページ全体 */
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px 20px 50px;
+}
+
+/* ロゴ */
+
+.logo {
+    text-align: center;
+    padding: 20px 0 30px;
+    border-bottom: 1px solid #333333;
+}
+
+.logo-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #E52B18;
+}
+
+.logo-sub {
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+/* マシーン名 */
+
+.machine-title {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.machine-title h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.machine-title p {
+    margin-top: 8px;
+    color: #E52B18;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 動画 */
+
+.video-box {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-top: 30px;
+
+    border: 2px solid #E52B18;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111111;
+}
+
+.video-box p {
+    color: #E52B18;
+    font-size: 18px;
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* 見出し */
+
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #E52B18;
+    font-size: 22px;
+}
+
+/* 使い方 */
+
+.steps {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.steps li {
+    padding: 15px;
+    margin-bottom: 10px;
+
+    background-color: #111111;
+    border-left: 4px solid #E52B18;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+/* 注意事項 */
+
+.warning {
+    padding: 18px;
+
+    background-color: #111111;
+    border: 1px solid #555555;
+    border-radius: 8px;
+
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* スマホ */
+
+@media (max-width: 480px) {
+
+    .container {
+        padding: 15px 15px 40px;
+    }
+
+    .machine-title h1 {
+        font-size: 28px;
+    }
+
+    .logo-name {
+        font-size: 26px;
+    }
+}
+
